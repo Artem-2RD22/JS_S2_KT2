@@ -1,0 +1,45 @@
+#catsCont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cat-card {
+    flex: 0 0 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cat-id {
+    font-size: 10px;
+    color: darkgrey;
+}
+
+.cat-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cat-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.cat-age-rate {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.cat-desc {
+    font-size: 16px;
+}
+
+.favorite-star {
+    color: gold;
+}
